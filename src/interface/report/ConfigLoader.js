@@ -1,9 +1,9 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import getConfig from 'parser/getConfig';
 
-class ConfigLoader extends React.PureComponent {
+class ConfigLoader extends PureComponent {
   static propTypes = {
     children: PropTypes.func.isRequired,
     // eslint-disable-next-line react/no-unused-prop-types

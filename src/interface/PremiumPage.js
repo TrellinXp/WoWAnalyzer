@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { t, Trans } from '@lingui/macro';
 import { connect } from 'react-redux';
@@ -18,7 +18,7 @@ import './PremiumPage.scss';
 
 import LoginPanel from './PremiumLoginPanel';
 
-export class PremiumPage extends React.PureComponent {
+export class PremiumPage extends PureComponent {
   static propTypes = {
     user: PropTypes.oneOfType([
       PropTypes.shape({

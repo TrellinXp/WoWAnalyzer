@@ -1,4 +1,3 @@
-import React from 'react';
 import { formatThousands, formatNumber } from 'common/format';
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';

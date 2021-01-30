@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 
@@ -9,7 +9,7 @@ import isLatestPatch from 'game/isLatestPatch';
 
 import SupportCheckerSpecOutOfDate from './SupportCheckerSpecOutOfDate';
 
-class SupportChecker extends React.PureComponent {
+class SupportChecker extends PureComponent {
   static propTypes = {
     children: PropTypes.node.isRequired,
     config: PropTypes.shape({

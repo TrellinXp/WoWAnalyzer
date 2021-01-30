@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Trans } from '@lingui/macro';
 
@@ -12,7 +12,7 @@ import { SpellLink } from 'interface';
 
 import PerformanceBar from './PerformanceBar';
 
-class PlayerBreakdown extends React.Component {
+class PlayerBreakdown extends Component {
   static propTypes = {
     report: PropTypes.object.isRequired,
     spellreport: PropTypes.object,

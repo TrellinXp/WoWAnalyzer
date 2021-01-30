@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import { fetchEvents } from 'common/fetchWclApi';
@@ -8,7 +8,7 @@ import { captureException } from 'common/errorLogger';
 
 import BOSS_PHASES_STATE from './BOSS_PHASES_STATE';
 
-class BossPhaseEventsLoader extends React.PureComponent {
+class BossPhaseEventsLoader extends PureComponent {
   static propTypes = {
     report: PropTypes.shape({
       code: PropTypes.string.isRequired,

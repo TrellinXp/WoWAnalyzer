@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { SELECTED_PLAYER, SELECTED_PLAYER_PET } from 'parser/core/Analyzer';
 import calculateMaxCasts from 'parser/core/calculateMaxCasts';
 

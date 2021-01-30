@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 import HIT_TYPES from 'game/HIT_TYPES';
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';

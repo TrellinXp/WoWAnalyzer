@@ -1,4 +1,3 @@
-import React from 'react';
 import { STATISTIC_ORDER } from 'parser/ui/StatisticsListBox';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

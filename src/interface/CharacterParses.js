@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
@@ -69,7 +69,7 @@ const ERRORS = {
   }),
 };
 
-class CharacterParses extends React.Component {
+class CharacterParses extends Component {
   static propTypes = {
     region: PropTypes.string.isRequired,
     realm: PropTypes.string.isRequired,

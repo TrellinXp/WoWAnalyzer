@@ -1,5 +1,3 @@
-import React from 'react';
-
 import ROLES from 'game/ROLES';
 import Analyzer from 'parser/core/Analyzer';
 

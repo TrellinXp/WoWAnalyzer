@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import SPELLS from 'common/SPELLS';
 
@@ -20,7 +20,7 @@ function formatNumber(number) {
   return formatThousands(number);
 }
 
-class Feeding extends React.Component {
+class Feeding extends Component {
   static propTypes = {
     cooldownThroughputTracker: PropTypes.object,
   };

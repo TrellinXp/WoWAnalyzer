@@ -1,4 +1,3 @@
-import React from 'react';
 import { Tyndi } from 'CONTRIBUTORS';
 import SPECS from 'game/SPECS';
 

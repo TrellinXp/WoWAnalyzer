@@ -1,4 +1,3 @@
-import React from 'react';
 import StatisticBox, { STATISTIC_ORDER } from 'parser/ui/StatisticBox';
 import { SpellIcon } from 'interface';
 import SPELLS from 'common/SPELLS';

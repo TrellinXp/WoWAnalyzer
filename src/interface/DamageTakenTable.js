@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import SpellLink from 'interface/SpellLink';
@@ -11,7 +11,7 @@ export const MITIGATED_MAGICAL = 1;
 export const MITIGATED_PHYSICAL = 2;
 export const MITIGATED_UNKNOWN = 99;
 
-class DamageTakenTable extends React.Component {
+class DamageTakenTable extends Component {
   static propTypes = {
     data: PropTypes.array.isRequired,
     spec: PropTypes.object.isRequired,

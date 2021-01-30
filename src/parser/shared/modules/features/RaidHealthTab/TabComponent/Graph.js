@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import fetchWcl from 'common/fetchWclApi';
@@ -21,7 +21,7 @@ const CLASS_CHART_LINE_COLORS = {
 };
 
 
-class Graph extends React.PureComponent {
+class Graph extends PureComponent {
   static propTypes = {
     reportCode: PropTypes.string.isRequired,
     start: PropTypes.number.isRequired,

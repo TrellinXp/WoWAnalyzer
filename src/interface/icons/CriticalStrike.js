@@ -1,5 +1,3 @@
-import React from 'react';
-
 const icon = props => (
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="16 16 32 32" className="icon" {...props}>
     <circle cx="32.111" cy="32.678" r="2.989" />

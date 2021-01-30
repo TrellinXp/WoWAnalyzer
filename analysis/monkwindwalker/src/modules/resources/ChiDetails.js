@@ -1,6 +1,4 @@
 // Heavily inspired by resource breakdown in Feral and Retribution
-import React from 'react';
-
 import Analyzer from 'parser/core/Analyzer';
 import { Panel } from 'interface';
 import Statistic from 'parser/ui/Statistic';

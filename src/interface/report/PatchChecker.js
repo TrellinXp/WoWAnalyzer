@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
@@ -15,7 +15,7 @@ import Panel from 'interface/Panel';
 import Background from './images/weirdnelf.png';
 import PATCHES from './PATCHES';
 
-class PatchChecker extends React.PureComponent {
+class PatchChecker extends PureComponent {
   static propTypes = {
     children: PropTypes.node.isRequired,
     report: PropTypes.object.isRequired,

@@ -1,4 +1,3 @@
-import React from 'react';
 import { LeoZhekov, flurreN } from 'CONTRIBUTORS';
 import { change, date } from 'common/changelog';
 import SPELLS from 'common/SPELLS';

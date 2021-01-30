@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';
 import SpellUsable from 'parser/shared/modules/SpellUsable';
 

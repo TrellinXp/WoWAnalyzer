@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Judgment, HolyPowerDetails } from '@wowanalyzer/paladin'
 
 import BaseChecklist from 'parser/shared/modules/features/Checklist/Module';

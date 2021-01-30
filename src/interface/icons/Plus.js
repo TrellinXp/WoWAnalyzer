@@ -1,7 +1,3 @@
-import React from 'react';
-
-// https://thenounproject.com/term/plus/674201/
-// Plus by Galaxicon from the Noun Project
 const Icon = ({ ...other }) => (
   <svg viewBox="9 9 81 81" xmlns="http://www.w3.org/2000/svg" className="icon" {...other}>
     <g transform="translate(0,-952.36218)">

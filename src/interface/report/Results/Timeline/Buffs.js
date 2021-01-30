@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { Trans } from '@lingui/macro';
 
@@ -11,7 +11,7 @@ import Tooltip from 'interface/Tooltip';
 
 import './Buffs.scss';
 
-class Buffs extends React.PureComponent {
+class Buffs extends PureComponent {
   static propTypes = {
     start: PropTypes.number.isRequired,
     secondWidth: PropTypes.number.isRequired,

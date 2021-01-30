@@ -1,7 +1,5 @@
 import { ComboPointDetails, EnergyCapTracker, EnergyDetails } from '@wowanalyzer/rogue';
 
-import React from 'react';
-
 import BaseChecklist from 'parser/shared/modules/features/Checklist/Module';
 import CastEfficiency from 'parser/shared/modules/CastEfficiency';
 import Combatants from 'parser/shared/modules/Combatants';

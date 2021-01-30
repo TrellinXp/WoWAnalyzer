@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { EnergyDetails, ComboPointDetails } from '@wowanalyzer/rogue';
 
 import BaseChecklist from 'parser/shared/modules/features/Checklist/Module';

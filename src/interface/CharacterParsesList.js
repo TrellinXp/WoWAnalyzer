@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
@@ -21,7 +21,7 @@ const styles = {
   },
 };
 
-class CharacterParsesList extends React.PureComponent {
+class CharacterParsesList extends PureComponent {
   static propTypes = {
     parses: PropTypes.array.isRequired,
     class: PropTypes.string.isRequired,

@@ -1,4 +1,4 @@
-import React from 'react';
+import { Fragment } from 'react';
 import Analyzer from 'parser/core/Analyzer';
 import StatisticsListBox, { STATISTIC_ORDER } from 'parser/ui/StatisticsListBox';
 
@@ -54,9 +54,9 @@ class TalentStatisticBox extends Analyzer {
             return null;
           }
           return (
-            <React.Fragment key={name}>
+            <Fragment key={name}>
               {module.subStatistic()}
-            </React.Fragment>
+            </Fragment>
           );
         })}
       </StatisticsListBox>

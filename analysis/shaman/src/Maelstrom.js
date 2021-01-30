@@ -1,7 +1,6 @@
 //Based on Main/Mana.js and parser/VengeanceDemonHunter/Modules/PainChart
 //Note: For those that might wish to add Boss Health in the future- some of the work is already done here: https://github.com/leapis/WoWAnalyzer/tree/focusChartBossHealth
 
-import React from 'react';
 import PropTypes from 'prop-types';
 import { AutoSizer } from 'react-virtualized';
 import BaseChart, { formatTime } from 'parser/ui/BaseChart';

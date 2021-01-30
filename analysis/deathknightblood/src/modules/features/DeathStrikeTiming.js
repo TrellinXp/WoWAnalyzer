@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SelfHealTimingGraph from 'parser/shared/modules/features/SelfHealTimingGraph';
 import SPELLS from 'common/SPELLS';
 

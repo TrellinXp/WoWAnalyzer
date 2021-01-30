@@ -1,9 +1,9 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import ManaUsageGraph from './ManaUsageGraph';
 
-class HealingDoneGraph extends React.PureComponent {
+class HealingDoneGraph extends PureComponent {
   static propTypes = {
     start: PropTypes.number.isRequired,
     end: PropTypes.number.isRequired,

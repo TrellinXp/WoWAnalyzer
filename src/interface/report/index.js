@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import makeAnalyzerUrl from 'interface/makeAnalyzerUrl';
@@ -22,7 +22,7 @@ import Results from './Results';
 import EVENT_PARSING_STATE from './EVENT_PARSING_STATE';
 import BOSS_PHASES_STATE from './BOSS_PHASES_STATE';
 
-class ResultsLoader extends React.PureComponent {
+class ResultsLoader extends PureComponent {
   static propTypes = {
     config: PropTypes.object.isRequired,
     report: PropTypes.object.isRequired,

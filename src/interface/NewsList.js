@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import articles from 'articles';
@@ -11,7 +11,7 @@ import { ReactComponent as Logo } from 'interface/images/logo.svg';
 import NewsArticleLoader from 'interface/NewsArticleLoader';
 import 'interface/NewsPage.scss';
 
-class News extends React.PureComponent {
+class News extends PureComponent {
   static propTypes = {
     topAnchor: PropTypes.string.isRequired,
   };

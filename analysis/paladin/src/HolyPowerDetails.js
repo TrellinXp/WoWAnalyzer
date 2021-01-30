@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer from 'parser/core/Analyzer';
 import Panel from 'parser/ui/Panel';
 import { formatNumber, formatPercentage } from 'common/format';

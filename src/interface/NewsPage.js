@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
@@ -8,21 +8,21 @@ import DocumentTitle from 'interface/DocumentTitle';
 import NewsArticleLoader from './NewsArticleLoader';
 import 'interface/NewsPage.scss';
 
-class NewsPage extends React.PureComponent {
+class NewsPage extends PureComponent {
   static propTypes = {
     articleId: PropTypes.string.isRequired,
   };
 
   renderBreadcrumbs(breadcrumbs) {
     return breadcrumbs.map((item, index) => (
-      <React.Fragment key={index}>
+      <Fragment key={index}>
         {item}
         {index !== (breadcrumbs.length - 1) && (
           <>
             {' '}&gt;{' '}
           </>
         )}
-      </React.Fragment>
+      </Fragment>
     ));
   }
 

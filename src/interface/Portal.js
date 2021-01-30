@@ -1,10 +1,10 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 
 import PortalTarget from './PortalTarget';
 
-class Portal extends React.PureComponent {
+class Portal extends PureComponent {
   static propTypes = {
     children: PropTypes.node.isRequired,
   };

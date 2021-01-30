@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { RuneTracker } from '@wowanalyzer/deathknight';
 
 import BaseChecklist from 'parser/shared/modules/features/Checklist/Module';

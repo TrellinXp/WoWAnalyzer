@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import AutoSizer from 'react-virtualized/dist/commonjs/AutoSizer';
 import Table, { defaultRowRenderer as defaultTableRowRenderer, Column } from 'react-virtualized/dist/commonjs/Table';
@@ -97,7 +97,7 @@ const FILTERABLE_TYPES = {
   },
 };
 
-class EventsTab extends React.Component {
+class EventsTab extends Component {
   static propTypes = {
     parser: PropTypes.object.isRequired,
   };

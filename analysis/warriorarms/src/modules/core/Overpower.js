@@ -1,4 +1,3 @@
-import React from 'react';
 import { formatPercentage } from 'common/format';
 import { SpellLink } from 'interface';
 import { SpellIcon } from 'interface';

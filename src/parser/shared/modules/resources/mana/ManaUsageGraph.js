@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import { AutoSizer } from 'react-virtualized';
 import PropTypes from 'prop-types';
 import BaseChart, { formatTime } from 'parser/ui/BaseChart';
@@ -18,7 +18,7 @@ const COLORS = {
   },
 };
 
-class ManaUsageGraph extends React.Component {
+class ManaUsageGraph extends Component {
   static propTypes = {
     mana: PropTypes.arrayOf(PropTypes.shape({
       x: PropTypes.number.isRequired,

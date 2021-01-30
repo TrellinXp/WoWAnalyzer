@@ -1,4 +1,4 @@
-import React from 'react';
+import { Fragment } from 'react';
 
 import SPELLS from 'common/SPELLS';
 import { formatPercentage } from 'common/format';
@@ -87,7 +87,7 @@ class FinisherTracker extends Analyzer {
   }
 
   suggestions(when) {
-    when(this.suggestionThresholds).addSuggestion((suggest, actual, recommended) => suggest(<React.Fragment>Try to use your finishers at {this.maximumComboPoints} combo points. {this.extraSuggestion()}</React.Fragment>)
+    when(this.suggestionThresholds).addSuggestion((suggest, actual, recommended) => suggest(<Fragment>Try to use your finishers at {this.maximumComboPoints} combo points. {this.extraSuggestion()}</Fragment>)
       .icon(this.suggestionIcon())
       .actual(t({
       id: "rogue.shared.suggestions.finishers.efficiency",

@@ -1,11 +1,11 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { Trans } from '@lingui/macro';
 
 import Rule from './Rule';
 import Requirement from './Requirement';
 
-class PreparationRule extends React.PureComponent {
+class PreparationRule extends PureComponent {
 
   static propTypes = {
     children: PropTypes.node,

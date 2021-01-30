@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import fetchWcl from 'common/fetchWclApi';
@@ -6,7 +6,7 @@ import fetchWcl from 'common/fetchWclApi';
 import ManaStyles from 'parser/ui/ManaStyles.js';
 import ManaLevelGraph from 'parser/ui/ManaLevelGraph';
 
-class Mana extends React.PureComponent {
+class Mana extends PureComponent {
   static propTypes = {
     reportCode: PropTypes.string.isRequired,
     actorId: PropTypes.number.isRequired,

@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro';
-import React from 'react';
+import { PureComponent } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
@@ -19,7 +19,7 @@ import Buffs from './Buffs';
 import Casts from './Casts';
 import Cooldowns from './Cooldowns';
 
-class Timeline extends React.PureComponent {
+class Timeline extends PureComponent {
   static propTypes = {
     abilities: PropTypes.instanceOf(Abilities).isRequired,
     buffs: PropTypes.instanceOf(BuffsModule).isRequired,

@@ -1,4 +1,3 @@
-import React from 'react';
 import StatisticBox from 'parser/ui/StatisticBox';
 
 import SPELLS from 'common/SPELLS';

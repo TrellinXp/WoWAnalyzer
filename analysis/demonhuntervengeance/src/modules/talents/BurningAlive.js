@@ -1,4 +1,3 @@
-import React from 'react';
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
 import { formatNumber } from 'common/format';

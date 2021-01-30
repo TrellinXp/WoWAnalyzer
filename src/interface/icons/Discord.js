@@ -1,6 +1,3 @@
-import React from 'react';
-
-// From the Discord branding website. Should only use this rarely.
 const Icon = ({ ...other }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="36.9 36.9 725.6 198.3" className="icon" {...other}>
     <path d="M142.8 120.1c-5.7 0-10.2 4.9-10.2 11s4.6 11 10.2 11c5.7 0 10.2-4.9 10.2-11s-4.6-11-10.2-11zM106.3 120.1c-5.7 0-10.2 4.9-10.2 11s4.6 11 10.2 11c5.7 0 10.2-4.9 10.2-11 .1-6.1-4.5-11-10.2-11z" />

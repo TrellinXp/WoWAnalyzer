@@ -1,7 +1,3 @@
-import React from 'react';
-
-// https://thenounproject.com/term/login/214301/
-// Login by Yaroslav Samoylov from the Noun Project
 const Icon = ({ ...other }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" className="icon" {...other}>
     <path d="M24,90h-3c-4.962,0-9-4.037-9-9V14c0-4.963,4.038-9,9-9h3v2h-3c-3.86,0-7,3.141-7,7v67c0,3.859,3.14,7,7,7   h3V90z" />

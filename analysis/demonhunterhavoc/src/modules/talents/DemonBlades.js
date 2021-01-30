@@ -1,4 +1,3 @@
-import React from 'react';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';
 import TalentStatisticBox from 'parser/ui/TalentStatisticBox';

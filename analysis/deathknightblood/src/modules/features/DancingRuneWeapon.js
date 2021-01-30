@@ -1,4 +1,4 @@
-import React from 'react';
+import { Fragment } from 'react';
 
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';
@@ -61,11 +61,11 @@ class DancingRuneWeapon extends Analyzer {
 
   spellLinks(id, index) {
     if (id === SPELLS.CONSUMPTION_TALENT.id) {
-      return <React.Fragment key={id}>and (if in AoE)<SpellLink id={id} /></React.Fragment>;
+      return <Fragment key={id}>and (if in AoE)<SpellLink id={id} /></Fragment>;
     } else if (index + 2 === ALLOWED_CASTS_DURING_DRW.length) {
-      return <React.Fragment key={id}><SpellLink id={id} /> </React.Fragment>;
+      return <Fragment key={id}><SpellLink id={id} /> </Fragment>;
     } else {
-      return <React.Fragment key={id}><SpellLink id={id} />, </React.Fragment>;
+      return <Fragment key={id}><SpellLink id={id} />, </Fragment>;
     }
   }
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import Slider from 'rc-slider';
 import 'rc-slider/assets/index.css';
@@ -12,7 +12,7 @@ import { SpecIcon } from 'interface';
 import { TooltipElement } from 'interface';
 import { Trans } from '@lingui/macro';
 
-class LowHealthHealing extends React.Component {
+class LowHealthHealing extends Component {
   static propTypes = {
     healEvents: PropTypes.array.isRequired,
     fightStart: PropTypes.number.isRequired,

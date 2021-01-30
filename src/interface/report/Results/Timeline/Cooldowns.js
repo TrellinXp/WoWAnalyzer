@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import Abilities from 'parser/core/modules/Abilities';
@@ -6,7 +6,7 @@ import Abilities from 'parser/core/modules/Abilities';
 import './Cooldowns.scss';
 import Lane from './Lane';
 
-class Cooldowns extends React.PureComponent {
+class Cooldowns extends PureComponent {
   static propTypes = {
     start: PropTypes.number.isRequired,
     end: PropTypes.number.isRequired,

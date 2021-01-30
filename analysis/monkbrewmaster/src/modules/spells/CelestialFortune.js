@@ -1,4 +1,3 @@
-import React from 'react';
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';
 import StatTracker from 'parser/shared/modules/StatTracker';
 import Combatants from 'parser/shared/modules/Combatants';

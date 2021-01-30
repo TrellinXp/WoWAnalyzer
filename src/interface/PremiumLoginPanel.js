@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import { Trans } from '@lingui/macro';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
@@ -38,7 +38,7 @@ const INITIAL_BACKGROUNDS = [
 //   '4a4w6CzSj1t2Hl6gYy', // orc please https://giphy.com/gifs/warcraft-video-games-4a4w6CzSj1t2Hl6gYy
 // ];
 
-export class PremiumLoginPanel extends React.PureComponent {
+export class PremiumLoginPanel extends PureComponent {
   static propTypes = {
     user: PropTypes.oneOfType([
       PropTypes.shape({

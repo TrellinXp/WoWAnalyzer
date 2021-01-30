@@ -1,5 +1,3 @@
-import React from 'react';
-
 const icon = props => (
   <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="16 16 32 32" className="icon" {...props}>
     <polygon points="37.832,31.246 33.542,31.246 33.542,26.987 30.681,26.987 30.681,31.246 26.427,31.246 26.427,34.11 30.681,34.11 30.681,38.369 33.542,38.369 33.542,34.11 37.832,34.11" />

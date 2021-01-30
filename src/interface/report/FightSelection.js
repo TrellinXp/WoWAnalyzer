@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { t, Trans } from '@lingui/macro';
@@ -17,7 +17,7 @@ import ClassicLogWarning from 'interface/report/ClassicLogWarning';
 
 import FightSelectionPanel from './FightSelectionPanel';
 
-class FightSelection extends React.PureComponent {
+class FightSelection extends PureComponent {
   static propTypes = {
     report: PropTypes.shape({
       code: PropTypes.string.isRequired,

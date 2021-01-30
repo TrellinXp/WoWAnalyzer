@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Trans } from '@lingui/macro';
@@ -20,7 +20,7 @@ const STATE_SEARCH_REPORT = 0;
 const STATE_SEARCH_CHAR = 1;
 const STATE_SEARCH_GUILD = 2;
 
-class ReportSelectionHeader extends React.PureComponent {
+class ReportSelectionHeader extends PureComponent {
   static propTypes = {
     reportHistory: PropTypes.array.isRequired,
   };

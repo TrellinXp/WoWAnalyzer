@@ -1,4 +1,3 @@
-import React from 'react';
 import { Trans } from '@lingui/macro';
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';
 import { SpellLink } from 'interface';

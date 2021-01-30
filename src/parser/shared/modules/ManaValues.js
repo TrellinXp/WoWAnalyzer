@@ -7,7 +7,6 @@ import PropTypes from 'prop-types';
 import { t } from '@lingui/macro';
 import Events from 'parser/core/Events';
 
-import React from 'react';
 import { Trans } from '@lingui/macro';
 import { ThresholdStyle } from 'parser/core/ParseResults';
 

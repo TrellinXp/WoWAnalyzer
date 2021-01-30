@@ -1,11 +1,11 @@
-import React from 'react';
+import { Component } from 'react';
 import AlertWarning from 'interface/AlertWarning';
 import PropTypes from 'prop-types';
 import { ItemLink } from 'interface';
 
 const WARNING_ITEMS = [];
 
-class ItemWarning extends React.Component {
+class ItemWarning extends Component {
   static propTypes = {
     gear: PropTypes.array.isRequired,
   };

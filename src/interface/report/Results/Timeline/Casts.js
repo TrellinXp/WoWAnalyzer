@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { Trans } from '@lingui/macro';
 
@@ -13,7 +13,7 @@ import './Casts.scss';
 
 const ICON_WIDTH = 22;
 
-class Casts extends React.PureComponent {
+class Casts extends PureComponent {
   static propTypes = {
     start: PropTypes.number.isRequired,
     secondWidth: PropTypes.number.isRequired,
@@ -178,7 +178,7 @@ class Casts extends React.PureComponent {
     );
 
     return (
-      <React.Fragment
+      <Fragment
         // It's possible this complains about "encountered two children with the same key". This is probably caused by fabricating a channel event at a cast time. If you can fix it by removing one of the events that would be great, otherwise you may just have to ignore this as while it's showing a warning, deduplicting the icons is correct behavior.
         key={`cast-${left}-${event.ability.guid}`}
       >
@@ -189,7 +189,7 @@ class Casts extends React.PureComponent {
             </div>
           </Tooltip>
         ) : linkIcon(icon)}
-      </React.Fragment>
+      </Fragment>
     );
   }
   renderChannel(event) {

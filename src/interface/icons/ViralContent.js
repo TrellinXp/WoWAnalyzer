@@ -1,6 +1,3 @@
-import React from 'react';
-
-// Viral Content by Edwin Prayogi M from the Noun Project
 const Icon = ({ ...other }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="icon" {...other}>
     <g>

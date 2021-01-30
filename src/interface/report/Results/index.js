@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link, withRouter } from 'react-router-dom';
@@ -60,7 +60,7 @@ const EventsTab = lazyLoadComponent(() =>
   ),
 );
 
-class Results extends React.PureComponent {
+class Results extends PureComponent {
   static propTypes = {
     parser: PropTypes.shape({
       boss: PropTypes.shape({

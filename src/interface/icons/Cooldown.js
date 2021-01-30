@@ -1,7 +1,3 @@
-import React from 'react';
-
-// https://thenounproject.com/search/?q=Lightning%20Bolt&i=1188000
-// Lightning by Mooms from the Noun Project
 const Icon = ({ ...other }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" className="stroke icon" {...other}>
     <path d="M32,0C14.355,0,0,14.355,0,32c0,17.6445,14.355,32,32,32c17.6445,0,32-14.3555,32-32C64,14.355,49.6445,0,32,0z M32,62   C15.458,62,2,48.542,2,32S15.458,2,32,2s30,13.458,30,30S48.542,62,32,62z" />

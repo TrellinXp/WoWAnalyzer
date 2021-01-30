@@ -1,10 +1,10 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Trans } from '@lingui/macro';
 
 import { captureException } from 'common/errorLogger';
 
-class ErrorBoundary extends React.Component {
+class ErrorBoundary extends Component {
   static propTypes = {
     children: PropTypes.node,
   };

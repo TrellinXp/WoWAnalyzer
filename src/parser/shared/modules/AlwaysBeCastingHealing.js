@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { formatPercentage } from 'common/format';
 import CoreAlwaysBeCasting from 'parser/shared/modules/AlwaysBeCasting';
 import { STATISTIC_ORDER } from 'parser/ui/StatisticBox';

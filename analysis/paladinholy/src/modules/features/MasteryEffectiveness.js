@@ -1,4 +1,3 @@
-import React from 'react';
 import { Trans, t } from '@lingui/macro';
 
 import SPELLS from 'common/SPELLS';

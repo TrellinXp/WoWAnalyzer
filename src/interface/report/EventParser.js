@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import ExtendableError from 'es6-error';
 import { compose } from 'redux';
@@ -27,7 +27,7 @@ export class EventsParseError extends ExtendableError {
   }
 }
 
-class EventParser extends React.PureComponent {
+class EventParser extends PureComponent {
   static propTypes = {
     report: PropTypes.shape({
       title: PropTypes.string.isRequired,

@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import Toggle from 'react-toggle';
 import { Trans } from '@lingui/macro';
@@ -9,7 +9,7 @@ import { formatNumber, formatPercentage } from 'common/format';
 import { TooltipElement } from 'interface';
 import HealingValue from 'parser/shared/modules/HealingValue';
 
-class BeaconHealingBreakdown extends React.Component {
+class BeaconHealingBreakdown extends Component {
   static propTypes = {
     totalHealingDone: PropTypes.instanceOf(HealingValue).isRequired,
     totalBeaconHealing: PropTypes.instanceOf(HealingValue).isRequired,

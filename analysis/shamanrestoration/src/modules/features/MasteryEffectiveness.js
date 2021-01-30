@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { SpellIcon } from 'interface';
 import SPELLS from 'common/SPELLS';
 import { formatPercentage } from 'common/format';

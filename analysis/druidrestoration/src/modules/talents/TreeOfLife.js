@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { formatNumber, formatPercentage } from 'common/format';
 import { SpellLink } from 'interface';
 import SPELLS from 'common/SPELLS';

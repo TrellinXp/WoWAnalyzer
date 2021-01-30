@@ -1,4 +1,3 @@
-import React from 'react';
 import Analyzer, { SELECTED_PLAYER, SELECTED_PLAYER_PET } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
 import AbilityTracker from 'parser/shared/modules/AbilityTracker';

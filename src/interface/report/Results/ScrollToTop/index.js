@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { ReactComponent as Logo } from 'interface/images/logo.svg';
 
 // This has an elevator music easter egg that occurs randomly once every 5 times.

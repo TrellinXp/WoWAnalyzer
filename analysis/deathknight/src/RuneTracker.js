@@ -1,5 +1,3 @@
-import React from 'react';
-
 import RESOURCE_TYPES from 'game/RESOURCE_TYPES';
 import SPELLS from 'common/SPELLS';
 import { formatDuration, formatNumber, formatPercentage } from 'common/format';

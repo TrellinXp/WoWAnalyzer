@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { formatNumber } from 'common/format';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

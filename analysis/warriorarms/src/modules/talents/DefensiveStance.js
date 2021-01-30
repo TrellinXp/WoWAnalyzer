@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS/talents/warrior';
 import { SpellIcon } from 'interface';
 import { SpellLink } from 'interface';

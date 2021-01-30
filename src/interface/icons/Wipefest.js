@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Image from './images/Wipefest-logo.png';
 
 const icon = props => (

@@ -1,9 +1,9 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import './LoadingBar.scss';
 
-class LoadingBar extends React.PureComponent {
+class LoadingBar extends PureComponent {
   static propTypes = {
     progress: PropTypes.number,
     chunks: PropTypes.number,

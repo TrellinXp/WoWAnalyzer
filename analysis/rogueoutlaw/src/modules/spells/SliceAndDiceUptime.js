@@ -1,4 +1,3 @@
-import React from 'react';
 import SPELLS from 'common/SPELLS';
 import Analyzer from 'parser/core/Analyzer';
 import Statistic from 'parser/ui/Statistic';

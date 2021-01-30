@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import { Trans } from '@lingui/macro';
@@ -15,7 +15,7 @@ import { findByBossId } from 'game/raids';
 
 import ProgressBar from './ProgressBar';
 
-class FightSelectionPanelList extends React.PureComponent {
+class FightSelectionPanelList extends PureComponent {
   static propTypes = {
     report: PropTypes.shape({
       code: PropTypes.string.isRequired,

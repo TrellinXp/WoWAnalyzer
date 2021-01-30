@@ -1,11 +1,11 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import fetchWcl from 'common/fetchWclApi';
 
 import ManaLevelGraph from 'parser/ui/ManaLevelGraph';
 
-class ManaLevelChartComponent extends React.PureComponent {
+class ManaLevelChartComponent extends PureComponent {
   static propTypes = {
     reportCode: PropTypes.string.isRequired,
     start: PropTypes.number.isRequired,

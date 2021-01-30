@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Toggle from 'react-toggle';
 import { Trans } from '@lingui/macro';
@@ -10,7 +10,7 @@ import Panel from 'interface/Panel';
 import Suggestion from './Suggestion';
 import './Suggestions.scss';
 
-class Suggestions extends React.PureComponent {
+class Suggestions extends PureComponent {
   static propTypes = {
     children: PropTypes.array,
   };

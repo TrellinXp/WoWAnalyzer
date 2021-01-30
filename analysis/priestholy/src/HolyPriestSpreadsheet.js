@@ -1,4 +1,3 @@
-import React from 'react';
 import PropTypes from 'prop-types';
 import SPELLS from 'common/SPELLS';
 import AbilityTracker from 'parser/shared/modules/AbilityTracker';

@@ -1,5 +1,4 @@
 import SPELLS from 'common/SPELLS';
-import React from 'react';
 import { SpellLink } from 'interface';
 import { t } from '@lingui/macro';
 import { formatPercentage } from 'common/format';

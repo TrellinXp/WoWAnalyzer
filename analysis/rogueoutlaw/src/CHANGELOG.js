@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Putro, Tyndi, Zeboot, Canotsa} from 'CONTRIBUTORS';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

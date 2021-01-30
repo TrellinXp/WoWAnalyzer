@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer from 'parser/core/Analyzer';
 import DeathTracker from 'parser/shared/modules/DeathTracker';
 import SpellHistory from 'parser/shared/modules/SpellHistory';

@@ -1,8 +1,6 @@
 /**
  * Use this for Items so they're put in the right category.
  */
-import React from 'react';
-
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 

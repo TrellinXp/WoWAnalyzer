@@ -1,11 +1,11 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import { makeCharacterApiUrl } from 'common/makeApiUrl';
 
 const CHINESE_REGION = 'cn';
 
-class CharacterProfileLoader extends React.PureComponent {
+class CharacterProfileLoader extends PureComponent {
   static propTypes = {
     report: PropTypes.shape({
       exportedCharacters: PropTypes.arrayOf(

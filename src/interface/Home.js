@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Trans } from '@lingui/macro';
@@ -72,7 +72,7 @@ const Search = lazyLoadComponent(() =>
   ),
 );
 
-class Home extends React.PureComponent {
+class Home extends PureComponent {
   static propTypes = {
     location: PropTypes.shape({
       pathname: PropTypes.string.isRequired,

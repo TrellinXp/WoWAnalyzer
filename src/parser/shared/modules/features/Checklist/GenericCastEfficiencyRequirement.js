@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import { SpellLink } from 'interface';
@@ -11,7 +11,7 @@ import Requirement from './Requirement';
  *
  * This requirement is automatically disabled if the ability's CastEfficiency suggestion is disabled (i.e. if the ability's castEfficiency: { suggestion } is unset or false), or the ability is disabled completely. If you set `onlyWithSuggestion` to `false` in the object when creating this requirement you can change this behavior to always show if the ability is enabled, regardless of the CastEfficiency suggestion property being set.
  */
-class GenericCastEfficiencyRequirement extends React.PureComponent {
+class GenericCastEfficiencyRequirement extends PureComponent {
   static propTypes = {
     spell: PropTypes.number.isRequired,
     name: PropTypes.node,

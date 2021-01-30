@@ -1,7 +1,3 @@
-import React from 'react';
-
-// https://thenounproject.com/search/?q=abilities&i=1553895
-// abilities by sachin modgekar from the Noun Project
 const Icon = ({ ...other }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="30 25 150 150" className="icon" {...other}>
     {/* note the icon was modified, see the link above for the original */}

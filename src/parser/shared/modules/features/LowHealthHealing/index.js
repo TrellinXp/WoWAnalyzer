@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Panel } from 'interface';
 import Analyzer from 'parser/core/Analyzer';
 import { EventType } from 'parser/core/Events';

@@ -1,4 +1,3 @@
-import React from 'react';
 import { formatPercentage } from 'common/format';
 import SCHOOLS from 'game/MAGIC_SCHOOLS';
 import { SpellIcon } from 'interface';

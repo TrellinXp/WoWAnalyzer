@@ -1,4 +1,3 @@
-import React from 'react';
 import SPELLS from 'common/SPELLS';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import BoringSpellValueText from 'parser/ui/BoringSpellValueText';

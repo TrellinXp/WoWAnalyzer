@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { compose } from 'redux';
 import { connect } from 'react-redux';
@@ -20,7 +20,7 @@ import handleApiError from './handleApiError';
 // Actually leaving this disabled for now so we can continue to serve reports when WCL goes down and high traffic to a specific report page doesn't bring us down (since everything would be logged). To solve the issue of confusion, I'll try improving the fight selection text instead.
 const REFRESH_BY_DEFAULT = false;
 
-class ReportLoader extends React.PureComponent {
+class ReportLoader extends PureComponent {
   static propTypes = {
     children: PropTypes.func.isRequired,
     reportCode: PropTypes.string,

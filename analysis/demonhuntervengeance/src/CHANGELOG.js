@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Yajinni, Zeboot, LeoZhekov, TurianSniper, Geeii, Makhai } from 'CONTRIBUTORS';
 import { change, date } from 'common/changelog';
 import { SpellLink } from 'interface';

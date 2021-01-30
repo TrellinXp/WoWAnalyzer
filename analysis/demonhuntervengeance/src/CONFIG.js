@@ -1,4 +1,3 @@
-import React from 'react';
 import { Yajinni, TurianSniper, Geeii } from 'CONTRIBUTORS';
 import SPECS from 'game/SPECS';
 import SPELLS from 'common/SPELLS';

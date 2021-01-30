@@ -1,7 +1,3 @@
-import React from 'react';
-
-// https://thenounproject.com/term/checklist/437165/
-// Checklist by David from the Noun Project
 const Icon = ({ ...other }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="icon" {...other}>
     <path d="M37.434,25.406H92.54c1.354,0,2.46-1.103,2.46-2.459c0-1.356-1.104-2.46-2.46-2.46H37.434c-1.356,0-2.459,1.104-2.459,2.46  C34.975,24.303,36.078,25.406,37.434,25.406z" />

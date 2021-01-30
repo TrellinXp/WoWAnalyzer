@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import { formatPercentage, formatThousands } from 'common/format';
@@ -9,7 +9,7 @@ import StatTracker from 'parser/shared/modules/StatTracker';
 import STAT, { getClassNameColor, getIcon, getNameTranslated } from 'parser/shared/modules/features/STAT';
 import { Trans } from '@lingui/macro';
 
-class CharacterStats extends React.PureComponent {
+class CharacterStats extends PureComponent {
   static propTypes = {
     statTracker: PropTypes.instanceOf(StatTracker).isRequired,
   };

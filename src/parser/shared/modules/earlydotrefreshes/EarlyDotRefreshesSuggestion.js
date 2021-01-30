@@ -1,4 +1,3 @@
-import React from 'react';
 import { formatPercentage, formatDuration } from 'common/format';
 import { SpellLink } from 'interface';
 import { t } from '@lingui/macro';

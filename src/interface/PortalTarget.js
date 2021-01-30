@@ -1,8 +1,8 @@
-import React from 'react';
+import { PureComponent } from 'react';
 
 const ROOT_ELEMENT_ID = 'portal-target';
 
-class PortalTarget extends React.PureComponent {
+class PortalTarget extends PureComponent {
   /**
    * The element which contains all the modals.
    * @returns {HTMLElement}

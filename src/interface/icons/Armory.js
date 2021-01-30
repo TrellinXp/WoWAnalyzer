@@ -1,5 +1,3 @@
-import React from 'react';
-
 import ArmoryLogo from './images/Armory-logo.png';
 
 const icon = props => (

@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Masonry from 'react-masonry-component';
 import Toggle from 'react-toggle';
@@ -26,7 +26,7 @@ function sizeToInt(size) {
   }
 }
 
-class Statistics extends React.PureComponent {
+class Statistics extends PureComponent {
   static propTypes = {
     parser: PropTypes.object.isRequired,
     children: PropTypes.arrayOf(PropTypes.node).isRequired,
@@ -117,7 +117,7 @@ class Statistics extends React.PureComponent {
         {Object.keys(groups).sort((a, b) => categoryByIndex.indexOf(a) - categoryByIndex.indexOf(b)).map(name => {
           const statistics = groups[name];
           return (
-            <React.Fragment key={name}>
+            <Fragment key={name}>
               <StatisticsSectionTitle
                 rightAddon={name === STATISTIC_CATEGORY.GENERAL && parser.hasDowntime && this.renderFightDowntimeToggle()}
               >
@@ -131,7 +131,7 @@ class Statistics extends React.PureComponent {
                 <div className="col-lg-9 col-md-8 col-sm-6 hidden-xs" />
                 {statistics.sort(this.sortByPosition)}
               </Masonry>
-            </React.Fragment>
+            </Fragment>
           );
         })}
 

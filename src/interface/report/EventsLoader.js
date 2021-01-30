@@ -1,9 +1,9 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import { fetchEvents } from 'common/fetchWclApi';
 
-class EventsLoader extends React.PureComponent {
+class EventsLoader extends PureComponent {
   static propTypes = {
     report: PropTypes.shape({
       code: PropTypes.string.isRequired,

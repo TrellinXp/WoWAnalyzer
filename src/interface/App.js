@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Route, Switch, withRouter } from 'react-router-dom';
@@ -51,7 +51,7 @@ function isIE() {
   return myNav.includes('msie') || myNav.includes('trident');
 }
 
-class App extends React.Component {
+class App extends Component {
   static propTypes = {
     history: PropTypes.object.isRequired,
     error: PropTypes.shape({

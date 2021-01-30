@@ -1,4 +1,3 @@
-import React from 'react';
 import { AutoSizer } from 'react-virtualized';
 
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';

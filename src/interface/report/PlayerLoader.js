@@ -18,7 +18,7 @@ import { fetchCharacter } from 'interface/actions/characters';
 import { generateFakeCombatantInfo } from 'interface/report/CombatantInfoFaker';
 import Panel from 'interface/Panel';
 
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import { compose } from 'redux';
 import { connect } from 'react-redux';
@@ -36,7 +36,7 @@ const defaultState = {
 
 const FAKE_PLAYER_IF_DEV_ENV = false;
 
-class PlayerLoader extends React.PureComponent {
+class PlayerLoader extends PureComponent {
   tanks = 0;
   healers = 0;
   dps = 0;

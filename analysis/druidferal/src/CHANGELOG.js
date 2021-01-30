@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Abelito75, Zeboot, LeoZhekov, Tora, Xcessiv, Tiboonn } from 'CONTRIBUTORS';
 import { change, date } from 'common/changelog';
 

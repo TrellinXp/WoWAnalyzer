@@ -1,9 +1,9 @@
-import React from 'react';
+import { createRef, PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import { select } from 'd3-selection';
 
-class SvgWrappingText extends React.PureComponent {
+class SvgWrappingText extends PureComponent {
   static propTypes = {
     children: PropTypes.string.isRequired,
     width: PropTypes.number.isRequired,
@@ -12,7 +12,7 @@ class SvgWrappingText extends React.PureComponent {
   elem = null;
   constructor() {
     super();
-    this.elem = React.createRef();
+    this.elem = createRef();
   }
 
   componentDidMount() {

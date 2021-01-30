@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import SPECS from 'game/SPECS';
@@ -25,7 +25,7 @@ import SOULBINDS from 'game/shadowlands/SOULBINDS';
   // TODO: Clean this file up and split it into multiple files to make it much more maintainable in the future
 const LEVEL_15_TALENT_ROW_INDEX = 0;
 
-class EncounterStats extends React.PureComponent {
+class EncounterStats extends PureComponent {
   static propTypes = {
     currentBoss: PropTypes.number.isRequired,
     spec: PropTypes.number.isRequired,

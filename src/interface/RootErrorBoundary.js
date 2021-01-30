@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Trans, t } from '@lingui/macro';
 
@@ -7,7 +7,7 @@ import ErrorBoundary from 'interface/ErrorBoundary';
 import ApiDownBackground from 'interface/images/api-down-background.gif';
 import { EventsParseError } from 'interface/report/EventParser';
 
-class RootErrorBoundary extends React.Component {
+class RootErrorBoundary extends Component {
   static propTypes = {
     children: PropTypes.node,
   };

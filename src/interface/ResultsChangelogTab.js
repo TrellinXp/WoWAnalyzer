@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import Toggle from 'react-toggle';
 import 'react-toggle/style.css';
@@ -7,7 +7,7 @@ import { TooltipElement } from 'interface/Tooltip';
 
 import Changelog from './Changelog';
 
-class ResultsChangelogTab extends React.PureComponent {
+class ResultsChangelogTab extends PureComponent {
   static propTypes = {
     changelog: PropTypes.oneOfType([PropTypes.array, PropTypes.string]).isRequired,
     limit: PropTypes.number,

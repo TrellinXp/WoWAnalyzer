@@ -1,10 +1,10 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 import { AutoSizer } from 'react-virtualized';
 
 import BaseChart from './BaseChart';
 
-class OneVariableBinomialChart extends React.Component {
+class OneVariableBinomialChart extends Component {
   static propTypes = {
     probabilities: PropTypes.arrayOf(
       PropTypes.shape({

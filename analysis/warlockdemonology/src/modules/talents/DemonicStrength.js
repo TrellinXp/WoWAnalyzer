@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { SELECTED_PLAYER, SELECTED_PLAYER_PET } from 'parser/core/Analyzer';
 import Events from 'parser/core/Events';
 import Pets from 'parser/shared/modules/Pets';

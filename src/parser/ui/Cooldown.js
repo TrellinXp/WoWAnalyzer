@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import SPELLS from 'common/SPELLS';
@@ -13,7 +13,7 @@ import { BUILT_IN_SUMMARY_TYPES } from 'parser/shared/modules/CooldownThroughput
 import './Cooldown.css';
 import { Trans } from '@lingui/macro';
 
-class Cooldown extends React.Component {
+class Cooldown extends Component {
   static propTypes = {
     fightStart: PropTypes.number.isRequired,
     fightEnd: PropTypes.number.isRequired,

@@ -1,7 +1,3 @@
-import React from 'react';
-
-// https://thenounproject.com/search/?q=person&i=3090778
-// person by Marc Torrada from the Noun Project
 const Icon = ({ ...others }) => (
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" className="icon" {...others}>
     <path d="M51.7,46.5c-10.1,0-18.3-8.2-18.3-18.3S41.6,9.9,51.7,9.9S70,18.1,70,28.2S61.8,46.5,51.7,46.5z M51.7,14.9  c-7.4,0-13.3,6-13.3,13.3s6,13.3,13.3,13.3S65,35.6,65,28.2S59,14.9,51.7,14.9z" />

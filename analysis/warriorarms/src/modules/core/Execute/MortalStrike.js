@@ -1,4 +1,3 @@
-import React from 'react';
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';
 import { formatPercentage } from 'common/format';
 import SPELLS from 'common/SPELLS';

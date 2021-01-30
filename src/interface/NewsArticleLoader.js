@@ -1,9 +1,9 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import retryingPromise from 'common/retryingPromise';
 
-class NewsArticleLoader extends React.PureComponent {
+class NewsArticleLoader extends PureComponent {
   static propTypes = {
     fileName: PropTypes.string.isRequired,
     children: PropTypes.func.isRequired,

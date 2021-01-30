@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import Statistic from 'parser/ui/Statistic';
@@ -11,7 +11,7 @@ export { default as STATISTIC_ORDER } from './STATISTIC_ORDER';
 /**
  * @deprecated Use `parser/ui/Statistic` instead.
  */
-class StatisticBox extends React.PureComponent {
+class StatisticBox extends PureComponent {
   static propTypes = {
     icon: PropTypes.node,
     value: PropTypes.node.isRequired,

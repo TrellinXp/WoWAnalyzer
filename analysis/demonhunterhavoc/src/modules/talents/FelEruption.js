@@ -1,4 +1,3 @@
-import React from 'react';
 import SPELLS from 'common/SPELLS';
 import TalentStatisticBox from 'parser/ui/TalentStatisticBox';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
