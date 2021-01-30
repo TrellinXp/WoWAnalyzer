@@ -17,15 +17,10 @@ module.exports = {
         'react/display-name': 'off',
         // This one in particular hurts
         '@typescript-eslint/no-non-null-assertion': 'off',
-      },
-    },
-    // Disable the check'React' must be in scope when using JSX (no import React from 'react' must be used)
-    {
-      files: ['**/*.js', '**/*.ts?(x)'],
-      rules: {
+        // Disable the check'React' must be in scope when using JSX (no import React from 'react' must be used)
         "react/jsx-uses-react": "off",
-        "react/react-in-jsx-scope": "off"
-      }
-    }    
+        "react/react-in-jsx-scope": "off",
+      },
+    }, 
   ],
 };
