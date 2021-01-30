@@ -21,9 +21,8 @@ module.exports = {
     },
     // Disable the check'React' must be in scope when using JSX (no import React from 'react' must be used)
     {
-      // ...
-      "rules": {
-        // ...
+      files: ['**/*.js', '**/*.ts?(x)'],
+      rules: {
         "react/jsx-uses-react": "off",
         "react/react-in-jsx-scope": "off"
       }
