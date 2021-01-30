@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import EventSubscriber, { EventListener, Options as _Options } from './EventSubscriber';
 import EventFilter, {

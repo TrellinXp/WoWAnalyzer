@@ -1,5 +1,3 @@
-import React from 'react';
-
 import CoreAlwaysBeCasting from 'parser/shared/modules/AlwaysBeCasting';
 
 import SPELLS from 'common/SPELLS';

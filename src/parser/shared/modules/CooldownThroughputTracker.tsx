@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 import { Panel } from 'interface';
 import CooldownIcon from 'interface/icons/Cooldown';

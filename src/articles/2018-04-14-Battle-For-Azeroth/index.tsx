@@ -1,5 +1,3 @@
-import React from 'react';
-
 import NewsImageArticle from 'interface/NewsImageArticle';
 
 import BackgroundImage from './Background.jpg';

@@ -2,7 +2,7 @@ import { PhaseConfig } from 'game/raids';
 
 import Spell from 'common/SPELLS/Spell';
 
-import React from 'react';
+import * as React from 'react';
 
 import EventFilter from './EventFilter';
 

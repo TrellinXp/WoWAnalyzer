@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Zerotorescue } from 'CONTRIBUTORS';
 import DiscordLogo from 'interface/images/Discord-Logo+Wordmark-White.svg';
 import NewsRegularArticle from 'interface/NewsRegularArticle';

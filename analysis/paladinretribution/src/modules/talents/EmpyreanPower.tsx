@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 import { formatDuration, formatNumber } from 'common/format';
 import BoringSpellValueText from 'parser/ui/BoringSpellValueText';

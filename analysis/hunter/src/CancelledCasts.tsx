@@ -1,5 +1,3 @@
-import React from 'react';
-
 import CoreCancelledCasts from 'parser/shared/modules/CancelledCasts';
 
 import { ThresholdStyle, When } from 'parser/core/ParseResults';

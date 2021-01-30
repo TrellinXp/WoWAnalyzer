@@ -1,6 +1,4 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react';
-
 import { joshinator, Khazak, LeoZhekov } from 'CONTRIBUTORS';
 import { change, date } from 'common/changelog';
 import SPELLS from 'common/SPELLS'

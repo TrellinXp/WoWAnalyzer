@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { i18n } from '@lingui/core';
 import { Trans, defineMessage } from '@lingui/macro';
@@ -72,7 +72,7 @@ interface State {
   factionImage: string;
 }
 
-class GuildReports extends React.Component<Props, State> {
+class GuildReports extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {

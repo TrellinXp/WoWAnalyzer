@@ -2,7 +2,6 @@ import { Putro } from 'CONTRIBUTORS';
 import { change, date } from 'common/changelog';
 import { SpellLink } from 'interface';
 import SPELLS from 'common/SPELLS';
-import React from 'react';
 
 export default [
   change(date(2021, 1, 16), 'Due to the paywalling of the timeline feature, and fundamental differences of opinion - I will no longer be updating this module beyond todays date. All the modules should be accurate for Castle Nathria, but will not be accurate going forward.', Putro),

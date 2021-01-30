@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { FocusTracker } from '@wowanalyzer/hunter';
 
 import Analyzer from 'parser/core/Analyzer';

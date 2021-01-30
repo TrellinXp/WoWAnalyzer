@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { Options, SELECTED_PLAYER, SELECTED_PLAYER_PET } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
 import { BLOODSEEKER_ATTACK_SPEED_GAIN } from '@wowanalyzer/hunter-survival/src/constants';

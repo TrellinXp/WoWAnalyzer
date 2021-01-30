@@ -1,4 +1,3 @@
-import React from 'react';
 import { AutoSizer } from 'react-virtualized';
 
 import { formatPercentage, formatThousands } from 'common/format';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Khazak } from 'CONTRIBUTORS';
 import SPECS from 'game/SPECS';
 

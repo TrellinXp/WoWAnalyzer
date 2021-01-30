@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Analyzer from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
 import SUGGESTION_IMPORTANCE from 'parser/core/ISSUE_IMPORTANCE';

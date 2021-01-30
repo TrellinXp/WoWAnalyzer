@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 import Checklist from 'parser/shared/modules/features/Checklist';
 import PreparationRule from 'parser/shared/modules/features/Checklist/PreparationRule';
 import Rule from 'parser/shared/modules/features/Checklist/Rule';

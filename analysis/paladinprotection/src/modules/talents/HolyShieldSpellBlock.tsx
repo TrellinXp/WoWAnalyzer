@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import Events, { AbsorbedEvent, DamageEvent} from 'parser/core/Events';
 import SPELLS from 'common/SPELLS';

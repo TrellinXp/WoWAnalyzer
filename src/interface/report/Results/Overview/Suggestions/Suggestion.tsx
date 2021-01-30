@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import UpArrow from 'interface/icons/UpArrow';
 import ISSUE_IMPORTANCE from 'parser/core/ISSUE_IMPORTANCE';
 import { Issue } from 'parser/core/ParseResults';
@@ -18,7 +18,7 @@ function getIssueImportance(importance: ISSUE_IMPORTANCE) {
   }
 }
 
-class Suggestion extends React.PureComponent<Issue, { expanded: boolean }> {
+class Suggestion extends PureComponent<Issue, { expanded: boolean }> {
 
   constructor(props: Issue) {
     super(props);

@@ -6,7 +6,7 @@ import { TrackedAbility } from 'parser/shared/modules/AbilityTracker';
 
 import Spell from 'common/SPELLS/Spell';
 
-import React from 'react';
+import * as React from 'react';
 import PropTypes from 'prop-types';
 
 

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { HawkCorrigan, Putro, Zeboot } from 'CONTRIBUTORS';
 import { change, date } from 'common/changelog';
 

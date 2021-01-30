@@ -1,4 +1,3 @@
-import React from 'react';
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import { Trans, t } from '@lingui/macro';
 import SPELLS from 'common/SPELLS';

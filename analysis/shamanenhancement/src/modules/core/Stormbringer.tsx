@@ -2,7 +2,6 @@ import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import Events, { ApplyBuffEvent, CastEvent, DamageEvent } from 'parser/core/Events';
 import SPELLS from 'common/SPELLS/shaman';
 import SpellUsable from 'parser/shared/modules/SpellUsable';
-import React from 'react';
 import calculateEffectiveDamage from 'parser/core/calculateEffectiveDamage';
 import Statistic from 'parser/ui/Statistic';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';

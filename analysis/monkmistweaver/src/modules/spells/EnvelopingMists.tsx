@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 import { formatNumber } from 'common/format';
 import Statistic from 'parser/ui/Statistic';

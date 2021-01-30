@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Trans } from '@lingui/macro';
 import { Link, useHistory } from 'react-router-dom';
 

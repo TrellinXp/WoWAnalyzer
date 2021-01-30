@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { PureComponent, ReactNode } from 'react';
 
 import { captureException } from 'common/errorLogger';
 import { COMBAT_POTIONS } from 'parser/shared/modules/items/PotionChecker';
@@ -54,7 +54,7 @@ interface Filter {
   end: number;
 }
 
-class TimeEventFilter extends React.PureComponent<Props, State> {
+class TimeEventFilter extends PureComponent<Props, State> {
   constructor(props: Props) {
     super(props);
     this.state = {

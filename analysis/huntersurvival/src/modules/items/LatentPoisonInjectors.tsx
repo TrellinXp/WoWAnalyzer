@@ -1,4 +1,3 @@
-import React from 'react';
 import Analyzer, { SELECTED_PLAYER } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
 import { LATENT_POISON_INJECOTRS_MAX_STACKS, RAPTOR_MONGOOSE_VARIANTS } from '@wowanalyzer/hunter-survival/src/constants';

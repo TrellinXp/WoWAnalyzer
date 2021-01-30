@@ -1,6 +1,5 @@
 import Analyzer, { Options } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
-import React from 'react';
 import SpiritOfRedemption from '@wowanalyzer/priest-holy/src/modules/spells/SpiritOfRedemption';
 import ItemManaGained from 'parser/ui/ItemManaGained';
 import Statistic from 'parser/ui/Statistic';

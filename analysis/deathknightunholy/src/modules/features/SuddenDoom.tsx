@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { Options, SELECTED_PLAYER } from "parser/core/Analyzer";
 import Events, { ApplyBuffEvent, RefreshBuffEvent, RemoveBuffEvent } from "parser/core/Events";
 import { ThresholdStyle, When } from "parser/core/ParseResults";

@@ -1,4 +1,3 @@
-import React from 'react';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import Statistic from 'parser/ui/Statistic';
 import { SpellIcon } from 'interface';

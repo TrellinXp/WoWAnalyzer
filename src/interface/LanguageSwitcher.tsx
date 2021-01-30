@@ -1,4 +1,4 @@
-import React from 'react';
+import { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import { t } from '@lingui/macro';
 
@@ -17,7 +17,7 @@ type State = {
   expanded: boolean;
 }
 
-class LanguageSwitcher extends React.PureComponent<Props, State> {
+class LanguageSwitcher extends PureComponent<Props, State> {
   state: State = {
     expanded: false,
   };

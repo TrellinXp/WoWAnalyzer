@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import DiscordButton from 'interface/DiscordButton';
 import GithubButton from 'interface/GitHubButton';

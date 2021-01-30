@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Zeboot } from 'CONTRIBUTORS';
 import NewsRegularArticle from 'interface/NewsRegularArticle';
 

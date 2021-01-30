@@ -8,8 +8,6 @@ import { formatNumber } from 'common/format';
 
 import Spell from 'common/SPELLS/Spell';
 
-import React from 'react';
-
 class ResourceUsage extends Analyzer {
 
   //region IMPLEMENTME statics

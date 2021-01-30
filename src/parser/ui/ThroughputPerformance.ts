@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { PureComponent, ReactNode } from 'react';
 import PropTypes from 'prop-types';
 
 import SPECS from 'game/SPECS';
@@ -21,7 +21,7 @@ interface State {
   topThroughput: number | null;
 }
 
-class ThroughputPerformance extends React.PureComponent<Props, State> {
+class ThroughputPerformance extends PureComponent<Props, State> {
   static contextTypes = {
     parser: PropTypes.object.isRequired, // unable to use instanceof CombatLogParser as that would cause a circular import
   };

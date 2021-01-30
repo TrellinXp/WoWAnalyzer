@@ -1,6 +1,3 @@
-import React from 'react';
-
-
 import SPELLS from 'common/SPELLS';
 // import ITEMS from 'common/ITEMS';
 import { SpellLink } from 'interface';

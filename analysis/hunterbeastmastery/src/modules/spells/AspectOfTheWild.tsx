@@ -6,7 +6,6 @@ import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import UptimeIcon from 'interface/icons/Uptime';
 import { formatPercentage } from 'common/format';
-import React from 'react';
 import BoringSpellValueText from 'parser/ui/BoringSpellValueText';
 import { ASPECT_OF_THE_WILD_FOCUS } from '@wowanalyzer/hunter-beastmastery/src/constants';
 import { NESINGWARY_FOCUS_GAIN_MULTIPLIER } from '@wowanalyzer/hunter';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Adoraci, Abelito75 } from 'CONTRIBUTORS';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

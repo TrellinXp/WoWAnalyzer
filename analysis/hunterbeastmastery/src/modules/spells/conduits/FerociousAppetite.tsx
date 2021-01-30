@@ -7,7 +7,6 @@ import { FEROCIOUS_APPETITE_ASPECT_REDUCTION } from '@wowanalyzer/hunter-beastma
 import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
-import React from 'react';
 import ConduitSpellText from 'parser/ui/ConduitSpellText';
 
 /**

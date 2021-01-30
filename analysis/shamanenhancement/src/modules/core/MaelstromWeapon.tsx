@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import Events, { ApplyBuffEvent, ApplyBuffStackEvent, CastEvent, RemoveBuffEvent, RemoveBuffStackEvent } from 'parser/core/Events';
 import SPELLS from 'common/SPELLS';

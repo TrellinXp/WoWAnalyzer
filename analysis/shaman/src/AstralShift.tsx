@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 import { SpellIcon } from 'interface';
 import { formatThousands, formatNumber } from 'common/format';

@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 

@@ -13,7 +13,6 @@ import Events, { ApplyDebuffEvent, DamageEvent, RefreshDebuffEvent, RemoveDebuff
 import { SERPENT_STING_MM_BASE_DURATION, SERPENT_STING_MM_PANDEMIC } from '@wowanalyzer/hunter-marksmanship/src/constants';
 import Enemies from 'parser/shared/modules/Enemies';
 import { encodeTargetString } from 'parser/shared/modules/EnemyInstances';
-import React from 'react';
 import { t } from '@lingui/macro';
 
 /**

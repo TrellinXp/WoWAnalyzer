@@ -5,7 +5,7 @@ import Spell from 'common/SPELLS/Spell';
 import SPECS from 'game/SPECS';
 import Events, { CastEvent, DamageEvent } from 'parser/core/Events';
 import EnemyInstance from 'parser/core/EnemyInstance';
-import React from 'react';
+import * as React from 'react';
 import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import BoringSpellValue from 'parser/ui/BoringSpellValue';

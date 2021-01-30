@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Abelito75, Anomoly, Moonrabbit, Putro, Tyndi, Vohrr } from 'CONTRIBUTORS';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

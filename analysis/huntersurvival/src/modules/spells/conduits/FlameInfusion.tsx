@@ -7,7 +7,6 @@ import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import ItemDamageDone from 'parser/ui/ItemDamageDone';
-import React from 'react';
 import { currentStacks } from 'parser/shared/modules/helpers/Stacks';
 import ConduitSpellText from 'parser/ui/ConduitSpellText';
 

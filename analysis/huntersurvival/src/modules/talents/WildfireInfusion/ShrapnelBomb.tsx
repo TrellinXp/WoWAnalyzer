@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
 import Enemies from 'parser/shared/modules/Enemies';

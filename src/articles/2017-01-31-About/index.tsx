@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Zerotorescue } from 'CONTRIBUTORS';
 import MasteryRadiusImage from 'interface/images/mastery-radius.png';
 import NewsRegularArticle from 'interface/NewsRegularArticle';

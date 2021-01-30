@@ -1,6 +1,5 @@
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
-import React from 'react';
 import Renew from '@wowanalyzer/priest-holy/src/modules/spells/Renew';
 import PrayerOfMending from '@wowanalyzer/priest-holy/src/modules/spells/PrayerOfMending';
 import ItemHealingDone from 'parser/ui/ItemHealingDone';

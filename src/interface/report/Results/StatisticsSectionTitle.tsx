@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import * as React from 'react';
 
 interface Props {
   rightAddon?: JSX.Element,

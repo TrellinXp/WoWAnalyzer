@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 export interface Props extends React.HTMLAttributes<HTMLDivElement> {
   kind: 'danger' | 'warning' | 'info';

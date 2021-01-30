@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Juko8 } from 'CONTRIBUTORS';
 import SPECS from 'game/SPECS';
 import Config from 'parser/Config';

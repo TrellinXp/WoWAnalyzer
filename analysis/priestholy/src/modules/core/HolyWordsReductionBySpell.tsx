@@ -1,4 +1,3 @@
-import React from 'react';
 import Analyzer, { Options } from 'parser/core/Analyzer';
 import HolyWordSanctify from '@wowanalyzer/priest-holy/src/modules/spells/holyword/HolyWordSanctify';
 import HolyWordChastise from '@wowanalyzer/priest-holy/src/modules/spells/holyword/HolyWordChastise';

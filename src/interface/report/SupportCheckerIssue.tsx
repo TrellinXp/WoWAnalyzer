@@ -1,5 +1,5 @@
 import { t, Trans } from '@lingui/macro';
-import React, { ReactNode } from 'react';
+import { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
 import Tooltip from 'interface/Tooltip';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Sharrq } from 'CONTRIBUTORS';
 import SPECS from 'game/SPECS';
 

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Panel from 'parser/ui/Panel';
 import Analyzer from 'parser/core/Analyzer';
 import { Trans } from '@lingui/macro';

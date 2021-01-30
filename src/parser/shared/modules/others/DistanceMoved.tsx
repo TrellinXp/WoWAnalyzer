@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { formatPercentage, formatThousands } from 'common/format';
 import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';

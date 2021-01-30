@@ -8,7 +8,6 @@ import SPELLS from 'common/SPELLS';
 import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
-import React from 'react';
 import BoringItemValueText from 'parser/ui/BoringItemValueText';
 import Haste from 'interface/icons/Haste';
 import { formatPercentage } from 'common/format';

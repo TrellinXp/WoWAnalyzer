@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { formatPercentage } from 'common/format';
 
 import Analyzer from 'parser/core/Analyzer';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 import { formatNumber, formatPercentage, formatThousands } from 'common/format';
 import AbilityTracker from 'parser/shared/modules/AbilityTracker';

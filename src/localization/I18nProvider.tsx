@@ -1,6 +1,6 @@
 import { Messages, i18n } from '@lingui/core';
 import { I18nProvider as LinguiI18nProvider } from '@lingui/react';
-import React, { ReactNode, useEffect, useState } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useSelector } from 'react-redux';
 import { en, de, es, fr, it, ko, pl, pt, ru, zh } from 'make-plural/plurals';

@@ -4,7 +4,6 @@ import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import ConduitSpellText from 'parser/ui/ConduitSpellText';
 import SPELLS from 'common/SPELLS';
-import React from 'react';
 import Events, { DamageEvent } from 'parser/core/Events';
 import { formatThousands } from 'common/format';
 import calculateEffectiveDamage from 'parser/core/calculateEffectiveDamage';

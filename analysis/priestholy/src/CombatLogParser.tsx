@@ -6,8 +6,6 @@ import {
   UnholyNova,
 } from '@wowanalyzer/priest';
 
-import React from 'react';
-
 import { Panel } from 'interface';
 
 import CoreCombatLogParser from 'parser/core/CombatLogParser';

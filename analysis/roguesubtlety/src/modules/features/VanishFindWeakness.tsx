@@ -1,7 +1,7 @@
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import Events, { CastEvent} from 'parser/core/Events';
 import SPELLS from 'common/SPELLS';
-import React from 'react';
+import * as React from 'react';
 import { NumberThreshold, ThresholdStyle, When } from 'parser/core/ParseResults';
 import { t } from '@lingui/macro';
 import Statistic from 'parser/ui/Statistic';

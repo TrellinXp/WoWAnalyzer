@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import TooltipProvider from 'interface/TooltipProvider';
 import SPELLS from 'common/SPELLS';

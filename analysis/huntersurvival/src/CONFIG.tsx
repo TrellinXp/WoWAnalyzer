@@ -1,4 +1,3 @@
-import React from 'react';
 import SPECS from 'game/SPECS';
 import Config from 'parser/Config';
 

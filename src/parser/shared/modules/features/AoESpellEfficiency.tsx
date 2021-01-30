@@ -10,8 +10,6 @@ import Events, { CastEvent, DamageEvent } from 'parser/core/Events';
 import { ThresholdStyle, When } from 'parser/core/ParseResults';
 import Spell from 'common/SPELLS/Spell';
 
-import React from 'react';
-
 import { t } from '@lingui/macro';
 
 /*

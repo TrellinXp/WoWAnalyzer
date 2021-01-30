@@ -6,7 +6,6 @@ import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import ConduitSpellText from 'parser/ui/ConduitSpellText';
 import { formatNumber } from 'common/format';
-import React from 'react';
 
 import { RESILIENCE_OF_THE_HUNTER_EFFECT_BY_RANK } from '../constants';
 

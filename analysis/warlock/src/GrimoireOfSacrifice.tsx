@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { Options } from 'parser/core/Analyzer';
 import AbilityTracker from 'parser/shared/modules/AbilityTracker';
 

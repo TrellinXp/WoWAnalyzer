@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Abelito75, emallson, Dambroda, Zeboot, LeoZhekov, Matardarix, Hordehobbs, Akhtal } from 'CONTRIBUTORS';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

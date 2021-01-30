@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { ItemIcon } from 'interface';
 import { Item } from 'parser/core/Events';
 

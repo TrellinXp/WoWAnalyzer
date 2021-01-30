@@ -5,7 +5,6 @@ import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import BoringSpellValueText from 'parser/ui/BoringSpellValueText';
 import ItemDamageDone from 'parser/ui/ItemDamageDone';
-import React from 'react';
 import Events, { ApplyBuffEvent, ApplyBuffStackEvent, DamageEvent, RemoveBuffEvent } from 'parser/core/Events';
 import { BUTCHERS_BONE_FRAGMENTS_DMG_AMP } from '@wowanalyzer/hunter-survival/src/constants';
 import { currentStacks } from 'parser/shared/modules/helpers/Stacks';

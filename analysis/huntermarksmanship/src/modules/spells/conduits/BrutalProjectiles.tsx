@@ -3,7 +3,6 @@ import Events, { ApplyBuffEvent, CastEvent, DamageEvent, RefreshBuffEvent } from
 import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
-import React from 'react';
 import SPELLS from 'common/SPELLS';
 import ItemDamageDone from 'parser/ui/ItemDamageDone';
 import calculateEffectiveDamage from 'parser/core/calculateEffectiveDamage';

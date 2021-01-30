@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { Options } from 'parser/core/Analyzer';
 
 import SPELLS from 'common/SPELLS';

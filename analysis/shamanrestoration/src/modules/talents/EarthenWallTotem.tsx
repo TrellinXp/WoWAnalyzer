@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { SpellIcon } from 'interface';
 import { SpellLink } from 'interface';
 import SPELLS from 'common/SPELLS';

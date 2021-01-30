@@ -1,6 +1,4 @@
 // Based on Clearcasting Implementation done by @Blazyb
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';
 import { SpellIcon } from 'interface';

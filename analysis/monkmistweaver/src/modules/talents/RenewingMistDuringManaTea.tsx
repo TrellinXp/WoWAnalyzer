@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 
 import AbilityTracker from 'parser/shared/modules/AbilityTracker';

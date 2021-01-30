@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React, { ComponentType, ReactNode } from 'react';
+import { ComponentType, ReactNode } from 'react';
 import { Trans } from '@lingui/macro';
 
 import ChecklistIcon from 'interface/icons/Checklist';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Adoraci, Khadaj, Ogofo, Oratio, Reglitch, VMakaev, Zeboot } from 'CONTRIBUTORS';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

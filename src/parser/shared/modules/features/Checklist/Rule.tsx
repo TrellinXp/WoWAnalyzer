@@ -1,4 +1,5 @@
-import React, {useCallback, useState} from 'react';
+import { useCallback, useState } from 'react';
+import * as React from 'react';
 
 import DropdownIcon from 'interface/icons/Dropdown';
 import InformationIcon from 'interface/icons/Information';
@@ -19,7 +20,7 @@ export enum PERFORMANCE_METHOD {
   LOWEST = 'LOWEST',
   FIRST = 'FIRST',
   HARMONIC = 'HARMONIC',
-};
+}
 
 interface Props {
   name: React.ReactNode;

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Trans, Plural } from '@lingui/macro';
 import { Link } from 'react-router-dom';
 

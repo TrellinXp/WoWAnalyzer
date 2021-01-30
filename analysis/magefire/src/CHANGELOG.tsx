@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Sharrq } from 'CONTRIBUTORS';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

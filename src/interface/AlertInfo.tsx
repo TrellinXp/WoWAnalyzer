@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Icon from 'interface/icons/Information';
 
 import Alert, { Props as AlertProps } from './Alert';

@@ -5,7 +5,6 @@ import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import ItemDamageDone from 'parser/ui/ItemDamageDone';
-import React from 'react';
 import calculateEffectiveDamage from 'parser/core/calculateEffectiveDamage';
 import COVENANTS from 'game/shadowlands/COVENANTS';
 import ConduitSpellText from 'parser/ui/ConduitSpellText';

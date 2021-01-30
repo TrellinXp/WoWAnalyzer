@@ -1,4 +1,3 @@
-import React from 'react';
 import { When, ThresholdStyle } from 'parser/core/ParseResults';
 import CoreCancelledCasts from 'parser/shared/modules/CancelledCasts';
 import SPELLS from 'common/SPELLS';

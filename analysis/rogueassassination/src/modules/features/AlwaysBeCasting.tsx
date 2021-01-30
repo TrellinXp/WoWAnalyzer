@@ -1,4 +1,3 @@
-import React from 'react';
 import { ThresholdStyle, When } from 'parser/core/ParseResults';
 import CoreAlwaysBeCasting from 'parser/shared/modules/AlwaysBeCasting';
 import { formatPercentage } from 'common/format';

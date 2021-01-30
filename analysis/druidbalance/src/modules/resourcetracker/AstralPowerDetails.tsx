@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Panel } from 'interface';
 import Statistic from 'parser/ui/Statistic';
 import ResourceBreakdown from 'parser/shared/modules/resources/resourcetracker/ResourceBreakdown';

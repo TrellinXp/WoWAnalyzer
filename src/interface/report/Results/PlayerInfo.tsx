@@ -1,5 +1,3 @@
-import React from 'react';
-
 import getAverageItemLevel from 'game/getAverageItemLevel';
 import Combatant from 'parser/core/Combatant';
 import { Item } from 'parser/core/Events';

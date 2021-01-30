@@ -4,7 +4,6 @@ import Events, { CastEvent, EnergizeEvent } from 'parser/core/Events';
 import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
-import React from 'react';
 import BoringSpellValue from 'parser/ui/BoringSpellValue';
 import { formatNumber } from 'common/format';
 

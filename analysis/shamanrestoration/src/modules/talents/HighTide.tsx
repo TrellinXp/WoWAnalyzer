@@ -1,5 +1,3 @@
-import React from 'react';
-
 import HIT_TYPES from 'game/HIT_TYPES';
 
 import { SpellLink } from 'interface';

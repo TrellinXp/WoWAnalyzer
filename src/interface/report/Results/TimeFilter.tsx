@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import * as React from 'react';
 import Fight from 'parser/core/Fight';
 import { Trans } from '@lingui/macro';
 

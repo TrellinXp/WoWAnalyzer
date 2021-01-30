@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { SpiritWolf, StaticCharge, AstralShift } from '@wowanalyzer/shaman';
 
 import { Panel } from 'interface';

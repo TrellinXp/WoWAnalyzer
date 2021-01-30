@@ -1,4 +1,3 @@
-import React from 'react';
 import ItemDamageDone from 'parser/ui/ItemDamageDone';
 import SPELLS from 'common/SPELLS';
 import { formatPercentage } from 'common/format';

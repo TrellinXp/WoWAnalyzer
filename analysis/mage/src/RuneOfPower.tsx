@@ -1,4 +1,3 @@
-import React from 'react';
 import SPELLS from 'common/SPELLS';
 import SPECS from 'game/SPECS';
 import { SpellLink } from 'interface';

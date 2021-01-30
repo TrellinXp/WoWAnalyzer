@@ -1,4 +1,3 @@
-import React from 'react';
 import SPELLS from 'common/SPELLS';
 import Statistic from 'parser/ui/Statistic';
 import UptimeIcon from 'interface/icons/Uptime';

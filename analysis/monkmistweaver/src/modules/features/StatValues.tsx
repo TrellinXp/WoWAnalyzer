@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro';
-import React from 'react';
 
 import BaseHealerStatValues from 'parser/shared/modules/features/BaseHealerStatValues';
 import STAT from 'parser/shared/modules/features/STAT';

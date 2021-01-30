@@ -1,4 +1,3 @@
-import React from 'react';
 import CoreChanneling from 'parser/shared/modules/Channeling';
 
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';

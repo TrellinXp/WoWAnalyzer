@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPECS from 'game/SPECS';
 import SPELLS from 'common/SPELLS';
 import { Class, CombatantInfoEvent } from 'parser/core/Events';

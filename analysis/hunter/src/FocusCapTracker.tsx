@@ -1,5 +1,3 @@
-import React from 'react';
-
 import RESOURCE_TYPES from 'game/RESOURCE_TYPES';
 import { formatPercentage, formatThousands } from 'common/format';
 import { STATISTIC_ORDER } from 'parser/ui/StatisticBox';

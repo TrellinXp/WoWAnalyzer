@@ -1,4 +1,4 @@
-import React from 'react';
+import { cloneElement } from 'react';
 
 import { Boss, findByBossId } from 'game/raids';
 import { formatDuration, formatNumber, formatPercentage } from 'common/format';
@@ -620,7 +620,7 @@ class CombatLogParser {
       const position =
         statistic.props.position !== undefined ? statistic.props.position : basePosition;
       results.statistics.push(
-        React.cloneElement(statistic, {
+        cloneElement(statistic, {
           key,
           position,
         }),

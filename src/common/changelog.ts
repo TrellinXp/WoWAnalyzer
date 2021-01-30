@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import { Contributor } from 'common/contributor';
 
 export type ChangelogEntry = {

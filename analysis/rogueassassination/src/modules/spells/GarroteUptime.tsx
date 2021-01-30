@@ -1,4 +1,3 @@
-import React from 'react';
 import { t } from '@lingui/macro';
 import SPELLS from 'common/SPELLS';
 import { SpellLink, SpellIcon } from 'interface';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { Options } from 'parser/core/Analyzer';
 import { STATISTIC_ORDER } from 'parser/ui/StatisticBox';
 import SPELLS from 'common/SPELLS';

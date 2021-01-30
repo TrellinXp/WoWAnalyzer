@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro';
-import React from 'react';
 
 import Fight from 'parser/core/Fight';
 import { Player } from 'parser/core/CombatLogParser';

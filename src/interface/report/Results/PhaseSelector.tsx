@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import { SELECTION_ALL_PHASES, SELECTION_CUSTOM_PHASE } from 'interface/report/PhaseParser';
 import Fight from 'parser/core/Fight';

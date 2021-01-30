@@ -1,6 +1,5 @@
 import { Putro, Zeboot } from 'CONTRIBUTORS';
 import { change, date } from 'common/changelog';
-import React from 'react';
 import { SpellLink } from 'interface';
 import SPELLS from 'common/SPELLS';
 

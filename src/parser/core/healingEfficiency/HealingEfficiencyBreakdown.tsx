@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 import { formatNumber, formatPercentage, formatDuration } from 'common/format';
 import Toggle from 'react-toggle';
 import { SpellLink } from 'interface';
@@ -19,7 +19,7 @@ export interface State {
   showEchoOfLight?: boolean;
 }
 
-class HealingEfficiencyBreakdown extends React.Component<Props, State> {
+class HealingEfficiencyBreakdown extends Component<Props, State> {
   constructor(props: Props) {
     super(props);
 

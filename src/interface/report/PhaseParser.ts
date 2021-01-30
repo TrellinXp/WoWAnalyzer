@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import { PureComponent, ReactNode } from 'react';
 
 import { EventType, PhaseEvent } from 'parser/core/Events';
 import { findByBossId, Phase } from 'game/raids';
@@ -18,7 +18,7 @@ interface State {
   phases: { [key: string]: Phase } | undefined,
 }
 
-class PhaseParser extends React.PureComponent<Props, State> {
+class PhaseParser extends PureComponent<Props, State> {
 
   constructor(props: Props) {
     super(props);

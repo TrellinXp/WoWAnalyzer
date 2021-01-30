@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { STATISTIC_ORDER } from 'parser/ui/StatisticBox';
 
 import HIT_TYPES from 'game/HIT_TYPES';

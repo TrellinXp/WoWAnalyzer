@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Icon } from 'interface';
 import { formatPercentage } from 'common/format';
 import Analyzer, { Options } from 'parser/core/Analyzer';

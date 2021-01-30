@@ -5,7 +5,6 @@ import Events, { ApplyBuffEvent, CastEvent, DamageEvent, HealEvent } from 'parse
 import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
-import React from 'react';
 import BoringSpellValueText from 'parser/ui/BoringSpellValueText';
 import COVENANTS from 'game/shadowlands/COVENANTS';
 import SPECS from 'game/SPECS';

@@ -3,7 +3,6 @@ import { ThresholdStyle, When } from 'parser/core/ParseResults';
 import { SpellLink } from 'interface';
 import SPELLS from 'common/SPELLS';
 import { formatPercentage } from 'common/format';
-import React from 'react';
 
 class AlwaysBeCasting extends CoreAlwaysBeCasting {
   get suggestionThresholds() {

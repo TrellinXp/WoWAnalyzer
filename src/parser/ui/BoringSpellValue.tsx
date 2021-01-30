@@ -3,7 +3,7 @@
  * Use this only for things that the player certainly should be familiar with, such as their own spells.
  * Do NOT use for items.
  */
-import React from 'react';
+import * as React from 'react';
 
 import { SpellIcon } from 'interface';
 

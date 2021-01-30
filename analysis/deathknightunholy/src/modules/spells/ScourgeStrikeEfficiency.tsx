@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { t } from '@lingui/macro';
 
 import SPELLS from 'common/SPELLS';

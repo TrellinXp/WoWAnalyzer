@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { emallson, Hordehobbs } from 'CONTRIBUTORS';
 import SPECS from 'game/SPECS';
 import SPELLS from 'common/SPELLS';

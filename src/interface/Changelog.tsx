@@ -1,5 +1,3 @@
-import React from 'react';
-
 import CORE_CHANGELOG from 'CHANGELOG';
 import { ChangelogEntry } from 'common/changelog';
 import ReadableListing from 'interface/ReadableListing';

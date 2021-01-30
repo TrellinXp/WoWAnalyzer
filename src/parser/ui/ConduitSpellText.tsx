@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import { SpellIcon } from 'interface';
 import { SpellLink } from 'interface';

@@ -7,7 +7,6 @@ import SUGGESTION_IMPORTANCE from 'parser/core/ISSUE_IMPORTANCE';
 import { When } from 'parser/core/ParseResults';
 import { Item } from 'parser/core/Events';
 
-import React from 'react';
 import { Trans } from '@lingui/macro';
 
 // Example logs with missing enhancement:

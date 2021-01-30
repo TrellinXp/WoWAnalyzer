@@ -1,6 +1,5 @@
 import Analyzer, { Options, SELECTED_PLAYER } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
-import React from 'react';
 import SPECS from 'game/SPECS';
 import { formatNumber } from 'common/format';
 import Statistic from 'parser/ui/Statistic';

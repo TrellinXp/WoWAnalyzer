@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPELLS from 'common/SPELLS';
 import fetchWcl from 'common/fetchWclApi';
 import { SpellIcon } from 'interface';

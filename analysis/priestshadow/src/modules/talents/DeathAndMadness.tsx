@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer, { SELECTED_PLAYER, Options } from 'parser/core/Analyzer';
 import Events, { EnergizeEvent } from 'parser/core/Events';
 import SPELLS from 'common/SPELLS';

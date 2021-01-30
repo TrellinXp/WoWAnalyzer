@@ -1,4 +1,3 @@
-import React from 'react';
 import { t } from '@lingui/macro';
 import ItemDamageDone from 'parser/ui/ItemDamageDone';
 import SPELLS from 'common/SPELLS';

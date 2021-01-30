@@ -1,4 +1,3 @@
-import React from 'react';
 import HealingEfficiencyBreakdown from 'parser/core/healingEfficiency/HealingEfficiencyBreakdown';
 import Toggle from 'react-toggle';
 import { SpellLink } from 'interface';

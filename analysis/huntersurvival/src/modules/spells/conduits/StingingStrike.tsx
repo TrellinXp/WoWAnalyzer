@@ -3,7 +3,6 @@ import Statistic from 'parser/ui/Statistic';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';
 import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import ItemDamageDone from 'parser/ui/ItemDamageDone';
-import React from 'react';
 import Events, { DamageEvent } from 'parser/core/Events';
 import { RAPTOR_MONGOOSE_VARIANTS, STINGING_STRIKE_RS_MB_DMG_INCREASE } from '@wowanalyzer/hunter-survival/src/constants';
 import calculateEffectiveDamage from 'parser/core/calculateEffectiveDamage';

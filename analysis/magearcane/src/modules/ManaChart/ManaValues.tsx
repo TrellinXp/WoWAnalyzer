@@ -1,4 +1,3 @@
-import React from 'react';
 import { When, ThresholdStyle } from 'parser/core/ParseResults';
 import ManaValues from 'parser/shared/modules/ManaValues';
 import DeathTracker from 'parser/shared/modules/DeathTracker';

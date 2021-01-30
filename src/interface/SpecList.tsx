@@ -1,5 +1,3 @@
-import React from 'react';
-
 import DocumentTitle from 'interface/DocumentTitle';
 import AVAILABLE_CONFIGS from 'parser';
 import { Trans } from '@lingui/macro';

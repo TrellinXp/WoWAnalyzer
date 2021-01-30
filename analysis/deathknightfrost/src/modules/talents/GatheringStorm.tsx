@@ -1,4 +1,3 @@
-import React from 'react';
 import ItemDamageDone from 'parser/ui/ItemDamageDone';
 import UptimeIcon from 'interface/icons/Uptime';
 import STATISTIC_ORDER from 'parser/ui/STATISTIC_ORDER';

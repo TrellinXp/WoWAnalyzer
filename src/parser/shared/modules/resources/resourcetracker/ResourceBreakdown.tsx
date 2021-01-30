@@ -1,4 +1,4 @@
-import React from 'react';
+import { Component } from 'react';
 
 import { SpellLink } from 'interface';
 import { formatPercentage } from 'common/format';
@@ -11,7 +11,7 @@ interface Props {
   showSpenders: boolean,
 }
 
-class ResourceBreakdown extends React.Component<Props> {
+class ResourceBreakdown extends Component<Props> {
 
   prepareGenerated(buildersObj: {[index: number]: BuilderObj}) {
     return Object.keys(buildersObj)

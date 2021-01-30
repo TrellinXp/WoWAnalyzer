@@ -1,5 +1,4 @@
 import { WeaponsOfOrder } from '@wowanalyzer/monk';
-import React from 'react'
 import { Options, SELECTED_PLAYER, SELECTED_PLAYER_PET } from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
 import Events, { CastEvent, DamageEvent } from 'parser/core/Events';

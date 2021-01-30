@@ -1,5 +1,3 @@
-import React from 'react';
-
 import usePremium from 'interface/usePremium';
 import Abilities from 'parser/core/modules/Abilities';
 import Buffs from 'parser/core/modules/Buffs';

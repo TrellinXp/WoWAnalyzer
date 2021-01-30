@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Adoraci, Khadaj, niseko, Zeboot } from 'CONTRIBUTORS';
 import { SpellLink } from 'interface';
 import SPELLS from 'common/SPELLS';

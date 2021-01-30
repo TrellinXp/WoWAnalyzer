@@ -1,4 +1,3 @@
-import React from 'react';
 import Analyzer, { SELECTED_PLAYER, Options} from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';
 import Events, { CastEvent, RemoveBuffStackEvent } from 'parser/core/Events';

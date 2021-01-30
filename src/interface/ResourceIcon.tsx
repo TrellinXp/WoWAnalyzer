@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import RESOURCE_TYPES from 'game/RESOURCE_TYPES';
 
 import ResourceLink from './ResourceLink';

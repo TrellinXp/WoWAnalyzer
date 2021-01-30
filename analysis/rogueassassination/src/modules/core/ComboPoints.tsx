@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { ComboPointTracker } from '@wowanalyzer/rogue'
 import Analyzer from 'parser/core/Analyzer';
 import SPELLS from 'common/SPELLS';

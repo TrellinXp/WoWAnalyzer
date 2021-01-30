@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { Sharrq, Dambroda } from 'CONTRIBUTORS';
 import Config from 'parser/Config';
 

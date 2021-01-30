@@ -1,5 +1,3 @@
-import React from 'react';
-
 import DocumentTitle from 'interface/DocumentTitle';
 import NavigationBar from 'interface/NavigationBar';
 

@@ -12,8 +12,6 @@ import { SpellLink } from 'interface';
 
 import Spell from 'common/SPELLS/Spell';
 
-import React from 'react';
-
 import { Trans } from '@lingui/macro';
 
 import { BASIC_ATTACK_SPELLS, MACRO_TIME_BETWEEN_BASIC_ATK, MAX_TIME_BETWEEN_BASIC_ATK, NO_DELAY_TIME_BETWEEN_BASIC_ATK } from '../../constants';

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import Analyzer from 'parser/core/Analyzer';
 import { ThresholdStyle } from 'parser/core/ParseResults';
 import { Panel } from 'interface';

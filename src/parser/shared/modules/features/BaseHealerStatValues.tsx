@@ -1,5 +1,3 @@
-import React from 'react';
-
 import InformationIcon from 'interface/icons/Information';
 
 import SPELLS from 'common/SPELLS';
@@ -530,7 +528,7 @@ export interface HealerSpellInfo {
   ignored?: boolean;
   multiplier?: boolean;
   masteryStack?: boolean;
-};
+}
 
 export interface ListOfHealerSpellInfo {
   [key: string]: HealerSpellInfo;

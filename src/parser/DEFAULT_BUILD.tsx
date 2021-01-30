@@ -1,4 +1,3 @@
-import React from 'react';
 import ArmoryIcon from 'interface/icons/Armory';
 import { Build } from 'parser/Config';
 

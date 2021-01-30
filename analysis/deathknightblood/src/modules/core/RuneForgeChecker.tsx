@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { RuneForgeChecker } from '@wowanalyzer/deathknight'
 
 import { Options } from 'parser/core/Analyzer';

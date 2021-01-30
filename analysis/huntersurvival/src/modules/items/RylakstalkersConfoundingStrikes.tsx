@@ -5,7 +5,6 @@ import STATISTIC_CATEGORY from 'parser/ui/STATISTIC_CATEGORY';
 import { plotOneVariableBinomChart } from 'parser/shared/modules/helpers/Probability';
 import SPELLS from 'common/SPELLS';
 import BoringSpellValueText from 'parser/ui/BoringSpellValueText';
-import React from 'react';
 import SpellUsable from '@wowanalyzer/hunter-survival/src/modules/core/SpellUsable';
 import Events from 'parser/core/Events';
 import { RAPTOR_MONGOOSE_VARIANTS, RYLAKSTALKERS_CONFOUNDING_STRIKES_RESET_CHANCE } from '@wowanalyzer/hunter-survival/src/constants';

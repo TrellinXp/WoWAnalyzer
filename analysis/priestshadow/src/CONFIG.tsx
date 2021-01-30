@@ -1,5 +1,3 @@
-import React from 'react';
-
 import SPECS from 'game/SPECS';
 import { Adoraci } from 'CONTRIBUTORS';
 

@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { emallson, Hordehobbs, Zeboot, HolySchmidt } from 'CONTRIBUTORS';
 import SPELLS from 'common/SPELLS';
 import { SpellLink } from 'interface';

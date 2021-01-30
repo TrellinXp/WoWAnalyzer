@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import React, { ComponentType, ReactNode } from 'react';
+import { ComponentType, ReactNode } from 'react';
 import { Link } from 'react-router-dom';
 
 import { Phase } from 'game/raids';
